@@ -13,3 +13,10 @@ floats.shift
 boolean = [1 > 2, 2 > 3, 3 > 4, 4 < 5]
 #unshift adds to the front
 boolean.shift(0 > 1)
+
+#### Index positions
+#Index position is the location of an element in the array starting at 0.
+#students = ["Cindy", "Josiah", "Rigo"]
+#
+#students[0]
+#"Cindy"
