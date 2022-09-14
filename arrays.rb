@@ -20,3 +20,10 @@ boolean.shift(0 > 1)
 #
 #students[0]
 #"Cindy"
+
+#delete_at
+#Deletes the element at the specified index
+#a = ["ant", "bat", "cat", "dog"]
+#a.delete_at(2)    #=> "cat"
+#a                 #=> ["ant", "bat", "dog"]
+#a.delete_at(99)   #=> nil
