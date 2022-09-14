@@ -1,18 +1,22 @@
 strings = ["a", "b", "c", "d"]
 #pop removes the last element
 strings.pop
+puts strings
 
 intergers = [1, 2, 3, 4]
 #push adds on to the end
 intergers.push(5)
+puts intergers
 
 floats = [10.1, 11.1, 12.1, 13.1]
 #shift removes the first element
 floats.shift
+puts floats
 
 boolean = [1 > 2, 2 > 3, 3 > 4, 4 < 5]
 #unshift adds to the front
 boolean.shift(0 > 1)
+puts boolean
 
 #### Index positions
 #Index position is the location of an element in the array starting at 0.
